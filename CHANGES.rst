@@ -1,6 +1,13 @@
 Changelog
 ---------
 
+Release 5.0.8.post1
+"""""""""""""""""""
+
+* ActiveState security release (2026-11-05): ``Validator`` check parsing no
+  longer backtracks quadratically on crafted check strings
+  (CVE-2023-26112, GHSA-c33w-24p9-8m24; the fix from 5.0.9)
+
 Release 5.0.8
 """""""""""""
 
